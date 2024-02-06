@@ -1,0 +1,32 @@
+/*-- scss:defaults --*/
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #aea79f !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #32213A !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$blue:    #90c2e7 !default;
+$indigo:  #6610f2 !default;
+$purple:  #855a99 !default;
+$pink:    #e83e8c !default;
+$red:     #B36A5e !default;
+$orange:  #e95420 !default;
+$yellow:  #d1caa1 !default;
+$green:   #576954 !default;
+$teal:    #95b391 !default;
+$cyan:    #17a2b8 !default;
+
+$primary:       $green !default;
+$secondary:     $purple !default;
+$success:       $teal !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-200 !default;
+$dark:          $purple !default;
