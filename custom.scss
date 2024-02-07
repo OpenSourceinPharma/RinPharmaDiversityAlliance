@@ -22,11 +22,55 @@ $green:   #576954 !default;
 $teal:    #95b391 !default;
 $cyan:    #17a2b8 !default;
 
-$primary:       $green !default;
-$secondary:     $purple !default;
+$primary:       $purple !default;
+$secondary:     $green !default;
 $success:       $teal !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-200 !default;
 $dark:          $purple !default;
+
+/*-- scss:rules --*/
+
+.stripe-box {
+    padding: 10px;
+    background-color: $white;
+    box-shadow: $purple 0px 0px 0px 3px inset, $white 10px -10px 0px -3px,
+    $green 10px -10px, $white 20px -20px 0px -3px,
+    $teal 20px -20px, $white 30px -30px 0px -3px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.green-box {
+    padding: 10px;
+    background-color: $white;
+    box-shadow: $green 0px 0px 0px 3px inset;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blue-box {
+    padding: 10px;
+    background-color: $white;
+    box-shadow: $blue 0px 0px 0px 3px inset;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.teal-box {
+    padding: 10px;
+    background-color: $white;
+    box-shadow: $teal 0px 0px 0px 3px inset;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
