@@ -13,19 +13,19 @@ Harvey Liberman: Data Scientist At Novartis.
 # What's our origin story?
 TL;DR - Rage against the patriarchal machine. 
 
-In the not so distant era of 2023, Orla and Christina were at a conference. We both decided to go to the panel on open-source adoption in pharma. We were astonished when the panel came on stage and of the 11 people up there only 1 person wasn't white and only 1 person wasn't a man! 
+In the not so distant past (2023), Orla and Christina were at a conference. We both decided to go to the panel on open-source adoption in pharma. We were astonished when the panel came on stage and of the 11 people panelist there was 1 person wasn't white and only 1 person wasn't a man! 
 
 We may never know whether it was fate or just our general aura of feminist rage that brought us together, but we struck up a conversation that lasted several hours. We wondered how we could ensure that the complex and impactful topic of the adoption of open-source is shaped by diverse voices with better diversity of ideas and approaches. That's when we realised, we were probably just as qualified as anyone else to do this. 
 
-Additionally we reflected on conferences and communities that are inclusive which led us to R/Pharma and Harvey Lieberman. We chatted to Harvey to share our ideas and we decided to create PROUD!    
+Additionally we reflected on conferences and communities that are inclusive which led us to R/Pharma and Harvey Lieberman. We chatted to Harvey to share our ideas and we decided to create the Diversity Alliance!    
 :::
 
 ::: teal-box
 # What is the Diversity Alliance? 
-The Diversity Alliance is an inclusive R community for developers who work in the pharma space. Trying to address the structural inequality that affects our community. We want all ways of being and doing to feel welcome.
+The Diversity Alliance aspire to be an inclusive R community for developers who work in the pharma space. Trying to address the structural inequality that affects our community. We want all ways of being and doing to feel welcome.
 
 # What are Diversity Alliance's objectives? 
-The goals of PROUD are to provide a welcoming, equitable and supportive space for people to upskill, share knowledge and build a community of diverse voices. 
+Our goals are to provide a welcoming, equitable and supportive space for people to upskill, share knowledge and build a community of diverse voices. 
 
 Upskilling:
 Let's work together to identify topics that we can workshop and grow our skills. For e.g. use of git, best practice in R package development, etc. 

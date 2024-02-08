@@ -1,6 +1,8 @@
 ---
-title: "Welcome!"
+title: "Welcome to the Diversity Alliance!"
 ---
+We aspire to be an inclusive R community for developers who work in the pharma space. Our goal is to provide a welcoming, equitable and supportive space for people to upskill, share knowledge and build a community of diverse voices. We want all ways of being and doing to feel welcome.
+
 
 ::: stripe-box
 # How can I get involved? 
@@ -8,19 +10,17 @@ title: "Welcome!"
 There are several ways to get involved with the Diversity Alliance: 
 
 1. Participating in our monthly meetups:
-- learn new skills as we workshop open-source topics
-- help co-define the agenda and topics for future meetups
-- make new connections
+- Learn new skills as we workshop open-source topics
+- Help co-define the agenda and topics for future meetups
+- Make new connections
 
 2. Co-host a workshop: 
-- is there a topic you are enthusiastic about that you'd like to share with the community 
-- did you have a steep learning curve that you want to soften for others - let's share our tips and tricks.
+- Is there a topic you are enthusiastic about that you'd like to share with the community 
+- Did you have a steep learning curve that you want to soften for others - let's share our tips and tricks.
 
 3. Are you organising sessions and you want to tap into a diverse group of people:
-- the PROUD chairs would like to brainstorm how we can be more proactive about ensuring under-recognised people are better included. 
+- The Diversity Alliance chairs would like to brainstorm how we can be more proactive about ensuring under-recognised people are better included. 
 
-- slack? 
-- monthly meet ups / webinars 
 :::
 
 
