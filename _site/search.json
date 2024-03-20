@@ -18,6 +18,13 @@
     "href": "events.html",
     "title": "Diversity Alliance Events",
     "section": "",
-    "text": "Upcoming\n\n\n\n\n\n\n\n\nDate\nTopic\nGoal\n\n\n\n\n23rd Feb 2024\nKick-off\nLet’s connect informally and discuss our aspriations for our diversity alliance and what you would like to see in upcoming events."
+    "text": "Upcoming\n\n\n\n\n\n\n\n\nDate\nTopic\nGoal\n\n\n\n\n23rd Feb 2024\nKick-off\nLet’s connect informally and discuss our aspriations for our diversity alliance and what you would like to see in upcoming events.\n\n\n22nd Mar 2024\nTBD"
+  },
+  {
+    "objectID": "agendas/00_kick_off_22Mar24.html",
+    "href": "agendas/00_kick_off_22Mar24.html",
+    "title": "Diversity Alliance – Kick Off Agenda",
+    "section": "",
+    "text": "Intros from our chairs.\nChristina, Orla, Harvey.\n\n\nGoal 1: connect conference, working group organisers to a less well-represented group of R developers in pharma.\n[Orla to intro; all to discuss]\n\nHow:\n\nslack as it inkeeping with our “parent” R/Pharma.\n\nchairs would post requests for participations from organisers.\n\nWhy:\n\ncreate a way for organisers to find more diverse participants.\n\n\n\n\nGoal 2: upskill in an inclusive environment.\n[Christina to intro; all to discuss]\nHow: create targeted content for upskilling each other. What:\n\nTech-focused (examples for inspiration):\n\nQuarto\nGit\nCreating website (quarto + github actions)\nIDEs (RStudio, VS Code, etc.)\n\nNon-tech (examples for inspiration):\n\nCareer talks.\nPresentation tips.\nStakeholder Management\nAgile frameworks."
   }
 ]
