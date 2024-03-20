@@ -1,0 +1,39 @@
+---
+title: "Diversity Alliance – Kick Off Agenda"
+toc: true
+---
+
+
+# Intros from our chairs. 
+Christina,
+Orla, 
+Harvey. 
+
+# Goal 1: connect conference, working group organisers to a less well-represented group of R developers in pharma. 
+[Orla to intro; all to discuss]
+
+* How: 
+    - slack as it inkeeping with our "parent" R/Pharma.  
+    - chairs would post requests for participations from organisers. 
+
+* Why: 
+    - create a way for organisers to find more diverse participants. 
+
+# Goal 2: upskill in an inclusive environment. 
+[Christina to intro; all to discuss]
+
+How: create targeted content for upskilling each other. 
+What:
+
+* Tech-focused (examples for inspiration):
+    + Quarto
+    + Git
+    + Creating website (quarto + github actions) 
+    + IDEs (RStudio, VS Code, etc.) 
+
+* Non-tech (examples for inspiration):
+    + Career talks. 
+    + Presentation tips. 
+    + Stakeholder Management
+    + Agile frameworks. 
+
