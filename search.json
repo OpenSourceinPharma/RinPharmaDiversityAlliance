@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to the Diversity Alliance!",
-    "section": "",
-    "text": "We aspire to be an inclusive R community for developers who work in the pharma space. Our goal is to provide a welcoming, equitable and supportive space for people to upskill, share knowledge and build a community of diverse voices. We want all ways of being and doing to feel welcome.\n\nHow can I get involved?\nThere are several ways to get involved with the Diversity Alliance:\n\nParticipate in our monthly meetups:\n\n\nLearn new skills as we workshop open-source topics\nHelp co-define the agenda and topics for future meetups\nMake new connections\n\n\nCo-host a workshop:\n\n\nIs there a topic you are enthusiastic about that you’d like to share with the community?\nDid you have a steep learning curve in a topic and you’d like to share your learnings?\n\n\nAre you organising sessions and you want to connect to a diverse group of people:\n\n\nThe Diversity Alliance chairs would like to brainstorm how we can be more proactive about ensuring under-recognised people are better included."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Us",
@@ -14,17 +7,24 @@
     "text": "Who are the Diversity Alliance chairs?\nChristina Fillmore: Data Scientist at GSK.\nOrla Doyle: Data Scientist at Novartis.\nHarvey Liberman: Data Scientist At Novartis.\n\n\nWhat’s our origin story?\nTL;DR - Rage against the patriarchal machine.\nIn the not so distant past (2023), Orla and Christina were at a conference. We both decided to go to the panel on open-source adoption in pharma. We were astonished when the panel came on stage and of the 11 people panelist there was 1 person wasn’t white and only 1 person wasn’t a man!\nWe may never know whether it was fate or just our general aura of feminist rage that brought us together, but we struck up a conversation that lasted several hours. We wondered how we could ensure that the complex and impactful topic of the adoption of open-source is shaped by diverse voices with better diversity of ideas and approaches. That’s when we realised, we were probably just as qualified as anyone else to do this.\nAdditionally we reflected on conferences and communities that are inclusive which led us to R/Pharma and Harvey Lieberman. We chatted to Harvey to share our ideas and we decided to create the Diversity Alliance!\n\n\n\nWhat is the Diversity Alliance?\nThe Diversity Alliance aspire to be an inclusive R community for developers who work in the pharma space. Trying to address the structural inequality that affects our community. We want all ways of being and doing to feel welcome.\n\n\nWhat are Diversity Alliance’s objectives?\nOur goals are to provide a welcoming, equitable and supportive space for people to upskill, share knowledge and build a community of diverse voices.\nUpskilling: Let’s work together to identify topics that we can workshop and grow our skills. For e.g. use of git, best practice in R package development, etc.\nCommunity: Build an inclusive community that offers opportunities for collaboration. Brainstorm how we can leverage this community as a resource for nominations for representation at conferences, working groups, etc."
   },
   {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Diversity Alliance Events",
+    "section": "",
+    "text": "Upcoming\n\n\n\n\n\n\n\n\nDate\nTopic\nGoal\n\n\n\n\n22rd Mar 2024\nKick-off\nLet’s connect informally and discuss our aspriations for our diversity alliance and what you would like to see in upcoming events.\n\n\n19th April 2024\nIDE Tips and Ticks\nBring your favourite IDE tricks and have some fun learning"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the Diversity Alliance!",
+    "section": "",
+    "text": "We aspire to be an inclusive R community for developers who work in the pharma space. Our goal is to provide a welcoming, equitable and supportive space for people to upskill, share knowledge and build a community of diverse voices. We want all ways of being and doing to feel welcome.\n\nHow can I get involved?\nThere are several ways to get involved with the Diversity Alliance:\n\nParticipate in our monthly meetups:\n\n\nLearn new skills as we workshop open-source topics\nHelp co-define the agenda and topics for future meetups\nMake new connections\n\n\nCo-host a workshop:\n\n\nIs there a topic you are enthusiastic about that you’d like to share with the community?\nDid you have a steep learning curve in a topic and you’d like to share your learnings?\n\n\nAre you organising sessions and you want to connect to a diverse group of people:\n\n\nThe Diversity Alliance chairs would like to brainstorm how we can be more proactive about ensuring under-recognised people are better included."
+  },
+  {
     "objectID": "agendas/00_kick_off_22Mar24.html",
     "href": "agendas/00_kick_off_22Mar24.html",
     "title": "Diversity Alliance – Kick Off Agenda",
     "section": "",
     "text": "Intros from our chairs.\nChristina, Orla, Harvey.\n\n\nGoal 1: connect conference, working group organisers to a less well-represented group of R developers in pharma.\n[Orla to intro; all to discuss]\n\nHow:\n\nslack as it inkeeping with our “parent” R/Pharma.\n\nchairs would post requests for participations from organisers.\n\nWhy:\n\ncreate a way for organisers to find more diverse participants.\n\n\n\n\nGoal 2: upskill in an inclusive environment.\n[Christina to intro; all to discuss]\nHow: create targeted content for upskilling each other. What:\n\nTech-focused (examples for inspiration):\n\nQuarto\nGit\nCreating website (quarto + github actions)\nIDEs (RStudio, VS Code, etc.)\n\nNon-tech (examples for inspiration):\n\nCareer talks.\nPresentation tips.\nStakeholder Management\nAgile frameworks."
-  },
-  {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "Diversity Alliance Events",
-    "section": "",
-    "text": "Upcoming\n\n\n\n\n\n\n\n\nDate\nTopic\nGoal\n\n\n\n\n22rd Mar 2024\nKick-off\nLet’s connect informally and discuss our aspriations for our diversity alliance and what you would like to see in upcoming events.\n\n\n19th April 2024\nTBD"
   }
 ]
