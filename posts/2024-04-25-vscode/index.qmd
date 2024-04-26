@@ -1,0 +1,92 @@
+---
+title: "Working with VS Code"
+description: "How to set up VS Code for programming in R plus some useful VS Code extensions."
+date: "2024-04-25"
+image: featured.png
+draft: false
+---
+
+## Why use VS Code?
+
+Posit workbench is a fine IDE and, if programming solely using R, it can do pretty much everthing you need.  When working with multiple languages, or if you need soemthing a little more than just an IDE, VS Code is an excellent alternative.
+
+Personally, I find the following features compelling reasons to use VS Code:
+
+-  VS Code has a better approach to multiple windowns.
+-  It works with multiple languages (syntax, autocomplete, error checking, etc).
+-  Amazing support for git, GitHub, etc.
+-  Editing code on remote servers.
+-  VS Code has a huge range of extensions.
+-  Easy to find command (CTRL-SHIFT-P).
+
+## Setting Up
+
+A little work is required to set up R in VS Code.
+
+### R Packages
+The following R packages should be installed along with the VS Code extensions:
+
+-  {languageserver}  This package supports the R language in VS Code.
+-  {httpg}  The httpg package provides a graphics device for plotting.
+-  {vscDebugger}  Supports debugging R code under VS Code.  It is not on CRAN but can be installed via R-Universe: `install.packages("vscDebugger", repos = "https://manuelhentschel.r-universe.dev")`
+
+### vscode-R extension
+Install the VS Code R extension (https://code.visualstudio.com/docs/languages/r).  The extension includes a number of features such as code completion and linting.  See https://github.com/REditorSupport/vscode-R/wiki/R-Language-Service for more details.
+
+### R debugger extension
+This adds debugging capability and dependes on the {vscDebugger} package.
+
+### Radian Terminal
+The Radian terminal is modern terminal for R.  It provides a better experience, closer to Posit's console, adding multiline editing, syntax highlighting and autocompletion in the terminal.  Radian is a python package and needs to be installed with `pip3 install -U radian`.  
+
+In order to use Radian, the default R terminal needs to be updated in the VS Code settings.  For a windows machine, edit settings via the menu (File>Preferences>Settings *or* CTRL+, *or* CTRL+P+"Preferences: Open Settings(UI)), search for **Rterm:windows** and set 
+`r.rterm.windows = "C:\Python311\Scripts\radian.exe"`
+
+### Using renv
+Packages can be managed using renv when working with R in VS Code, however the languageserver R package and its dependencies will also be required.  One way to manage this is to maintain a standalone, minimal library with packages that VS Code requires.  This is detailed in https://github.com/REditorSupport/vscode-R/wiki/Working-with-renv-enabled-projects
+
+## VS Code Extensions
+
+Listed below are some of my favorite VS Code extensions.
+
+### languages
+VS Code is an editor that works well with many programming languages.  It has native support for HTML, css, Javascript along with extensions for most modern programming languages.  VS Code is particularly useful when learning a new programming language as its syntax and linting features can highlight issues as you type.
+
+### Emmet
+Not strictly an extension as it is now part of the core code.  If you write in HTML and css, Emmet is an enormous time saver.  It parses abbreviated expressions, turning them into code.  More information available at https://docs.emmet.io/
+
+### Gitlens and Git Graph
+Two extensions to help when working with version control.  Git graph provides a visual representation of commits, making it simple to work with branches.  Git Lens provides many additional views of code under version control.
+
+### Quarto
+The VS Code quarto extension makes it easy to work with quarto and manage quarto projects.
+
+### docker
+The docker extension helps you build and manage containers and images from within VS Code.  Like many other languages in VS Code it provides intellisense and syntax help as you are writing Dockerfile and docker-compose.yml files.
+
+### remote ssh
+Connect to and edit files on a remote server.
+
+### Error lens
+Highlights errors and warnings with messages.  VS Code natively highlights errors but this adds more context as you're typing.
+
+### live server
+Launch a dynamic server to render webpages whilst editing.
+
+### rest client
+This extension is particularly useful when working with APIs.  It allows you to run requests to the API directly from the editor.  It's a great way to test as you are developing APIs without having to leave the editor.  It can also run graphQL parameterized queries.
+
+### mongoDB
+This is a great extension for working with mongoDB databases.  Includes a playground to build and test queries.
+
+### foam and dendron
+These are both note organizers.  If you have lots of notes, foam and dendron are two extensions that help you organize, classify and connect notes.
+
+### kanbn
+This is a great kanban extension for VS Code.  The kanban board can be attached to a VS Code workplace, useful for managing at a project-level.
+
+### markdown extended
+This adds a number of non-standard markdown extensions such as subscript/superscript, callout blocks, tables, footnotes, toc and many more.
+
+### spotify
+Control Spotify from within VS Code.
