@@ -18,7 +18,7 @@
     "href": "events.html",
     "title": "Diversity Alliance Events",
     "section": "",
-    "text": "Upcoming\n\n\n\n\n\n\n\n\nDate\nTopic\nGoal\n\n\n\n\n23rd Feb 2024\nKick-off\nLet’s connect informally and discuss our aspriations for our diversity alliance and what you would like to see in upcoming events.\n\n\n22nd Mar 2024\nTBD"
+    "text": "Upcoming\n\n\n\n\n\n\n\n\nDate\nTopic\nGoal\n\n\n\n\n22rd Mar 2024\nKick-off\nLet’s connect informally and discuss our aspriations for our diversity alliance and what you would like to see in upcoming events.\n\n\n19th April 2024\nIDE Tips and Ticks\nBring your favourite IDE tricks and have some fun learning"
   },
   {
     "objectID": "agendas/00_kick_off_22Mar24.html",
@@ -26,5 +26,40 @@
     "title": "Diversity Alliance – Kick Off Agenda",
     "section": "",
     "text": "Intros from our chairs.\nChristina, Orla, Harvey.\n\n\nGoal 1: connect conference, working group organisers to a less well-represented group of R developers in pharma.\n[Orla to intro; all to discuss]\n\nHow:\n\nslack as it inkeeping with our “parent” R/Pharma.\n\nchairs would post requests for participations from organisers.\n\nWhy:\n\ncreate a way for organisers to find more diverse participants.\n\n\n\n\nGoal 2: upskill in an inclusive environment.\n[Christina to intro; all to discuss]\nHow: create targeted content for upskilling each other. What:\n\nTech-focused (examples for inspiration):\n\nQuarto\nGit\nCreating website (quarto + github actions)\nIDEs (RStudio, VS Code, etc.)\n\nNon-tech (examples for inspiration):\n\nCareer talks.\nPresentation tips.\nStakeholder Management\nAgile frameworks."
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Working with VS Code\n\n\n\n\n\nHow to set up VS Code for programming in R plus some useful VS Code extensions\n\n\n\n\n\nApr 25, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2024-04-25-vscode/index.html",
+    "href": "posts/2024-04-25-vscode/index.html",
+    "title": "Working with VS Code",
+    "section": "",
+    "text": "Posit workbench is a fine IDE and, if programming solely using R, it can do pretty much everthing you need. When working with multiple languages, or if you need soemthing a little more than just an IDE, VS Code is an excellent alternative.\nPersonally, I find the following features compelling reasons to use VS Code:\n\nVS Code has a better approach to multiple windowns.\nIt works with multiple languages (syntax, autocomplete, error checking, etc).\nAmazing support for git, GitHub, etc.\nEditing code on remote servers.\nVS Code has a huge range of extensions.\nEasy to find command (CTRL-SHIFT-P)."
+  },
+  {
+    "objectID": "posts/2024-04-25-vscode/index.html#why-use-vs-code",
+    "href": "posts/2024-04-25-vscode/index.html#why-use-vs-code",
+    "title": "Working with VS Code",
+    "section": "",
+    "text": "Posit workbench is a fine IDE and, if programming solely using R, it can do pretty much everthing you need. When working with multiple languages, or if you need soemthing a little more than just an IDE, VS Code is an excellent alternative.\nPersonally, I find the following features compelling reasons to use VS Code:\n\nVS Code has a better approach to multiple windowns.\nIt works with multiple languages (syntax, autocomplete, error checking, etc).\nAmazing support for git, GitHub, etc.\nEditing code on remote servers.\nVS Code has a huge range of extensions.\nEasy to find command (CTRL-SHIFT-P)."
+  },
+  {
+    "objectID": "posts/2024-04-25-vscode/index.html#setting-up",
+    "href": "posts/2024-04-25-vscode/index.html#setting-up",
+    "title": "Working with VS Code",
+    "section": "Setting Up",
+    "text": "Setting Up\nA little work is required to set up R in VS Code.\n\nR Packages\nThe following R packages should be installed along with the VS Code extensions:\n\n{languageserver} This package supports the R language in VS Code.\n{httpg} The httpg package provides a graphics device for plotting.\n{vscDebugger} Supports debugging R code under VS Code. It is not on CRAN but can be installed via R-Universe: install.packages(\"vscDebugger\", repos = \"https://manuelhentschel.r-universe.dev\")\n\n\n\nvscode-R extension\nInstall the VS Code R extension (https://code.visualstudio.com/docs/languages/r). The extension includes a number of features such as code completion and linting. See https://github.com/REditorSupport/vscode-R/wiki/R-Language-Service for more details.\n\n\nR debugger extension\nThis adds debugging capability and dependes on the {vscDebugger} package.\n\n\nRadian Terminal\nThe Radian terminal is modern terminal for R. It provides a better experience, closer to Posit’s console, adding multiline editing, syntax highlighting and autocompletion in the terminal. Radian is a python package and needs to be installed with pip3 install -U radian.\nIn order to use Radian, the default R terminal needs to be updated in the VS Code settings. For a windows machine, edit settings via the menu (File&gt;Preferences&gt;Settings or CTRL+, or CTRL+P+“Preferences: Open Settings(UI)), search for Rterm:windows and set r.rterm.windows = \"C:\\Python311\\Scripts\\radian.exe\"\n\n\nUsing renv\nPackages can be managed using renv when working with R in VS Code, however the languageserver R package and its dependencies will also be required. One way to manage this is to maintain a standalone, minimal library with packages that VS Code requires. This is detailed in https://github.com/REditorSupport/vscode-R/wiki/Working-with-renv-enabled-projects"
+  },
+  {
+    "objectID": "posts/2024-04-25-vscode/index.html#vs-code-extensions",
+    "href": "posts/2024-04-25-vscode/index.html#vs-code-extensions",
+    "title": "Working with VS Code",
+    "section": "VS Code Extensions",
+    "text": "VS Code Extensions\nListed below are some of my favorite VS Code extensions.\n\nlanguages\nVS Code is an editor that works well with many programming languages. It has native support for HTML, css, Javascript along with extensions for most modern programming languages. VS Code is particularly useful when learning a new programming language as its syntax and linting features can highlight issues as you type.\n\n\nEmmet\nNot strictly an extension as it is now part of the core code. If you write in HTML and css, Emmet is an enormous time saver. It parses abbreviated expressions, turning them into code. More information available at https://docs.emmet.io/\n\n\nGitlens and Git Graph\nTwo extensions to help when working with version control. Git graph provides a visual representation of commits, making it simple to work with branches. Git Lens provides many additional views of code under version control.\n\n\nQuarto\nThe VS Code quarto extension makes it easy to work with quarto and manage quarto projects.\n\n\ndocker\nThe docker extension helps you build and manage containers and images from within VS Code. Like many other languages in VS Code it provides intellisense and syntax help as you are writing Dockerfile and docker-compose.yml files.\n\n\nremote ssh\nConnect to and edit files on a remote server.\n\n\nError lens\nHighlights errors and warnings with messages. VS Code natively highlights errors but this adds more context as you’re typing.\n\n\nlive server\nLaunch a dynamic server to render webpages whilst editing.\n\n\nrest client\nThis extension is particularly useful when working with APIs. It allows you to run requests to the API directly from the editor. It’s a great way to test as you are developing APIs without having to leave the editor. It can also run graphQL parameterized queries.\n\n\nmongoDB\nThis is a great extension for working with mongoDB databases. Includes a playground to build and test queries.\n\n\nfoam and dendron\nThese are both note organizers. If you have lots of notes, foam and dendron are two extensions that help you organize, classify and connect notes.\n\n\nkanbn\nThis is a great kanban extension for VS Code. The kanban board can be attached to a VS Code workplace, useful for managing at a project-level.\n\n\nmarkdown extended\nThis adds a number of non-standard markdown extensions such as subscript/superscript, callout blocks, tables, footnotes, toc and many more.\n\n\nspotify\nControl Spotify from within VS Code."
   }
 ]
