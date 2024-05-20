@@ -8,16 +8,17 @@ draft: false
 
 ## Why use VS Code?
 
-Posit workbench is a fine IDE and, if programming solely using R, it can do pretty much everthing you need.  When working with multiple languages, or if you need soemthing a little more than just an IDE, VS Code is an excellent alternative.
+Posit workbench is the most popular IDE for development using R. It has a lot of great functionality out of the box. However, when working with multiple languages, or if you need something a little more than just an IDE, VS Code is an excellent alternative.
 
-Personally, I find the following features compelling reasons to use VS Code:
+Here are some of the following features compelling reasons to use VS Code:
 
--  VS Code has a better approach to multiple windowns.
+-  VS Code has a better approach to multiple windows.
 -  It works with multiple languages (syntax, autocomplete, error checking, etc).
--  Amazing support for git, GitHub, etc.
+-  Excellent support for git, GitHub, etc.
 -  Editing code on remote servers.
 -  VS Code has a huge range of extensions.
--  Easy to find command (CTRL-SHIFT-P).
+-  Easy to navigate command palette (CTRL-SHIFT-P)
+-  It's highly customisable. 
 
 ## Setting Up
 
@@ -47,7 +48,7 @@ Packages can be managed using renv when working with R in VS Code, however the l
 
 ## VS Code Extensions
 
-Listed below are some of my favorite VS Code extensions.
+Listed below are some of our favorite VS Code extensions.
 
 ### languages
 VS Code is an editor that works well with many programming languages.  It has native support for HTML, css, Javascript along with extensions for most modern programming languages.  VS Code is particularly useful when learning a new programming language as its syntax and linting features can highlight issues as you type.
@@ -55,29 +56,46 @@ VS Code is an editor that works well with many programming languages.  It has na
 ### Emmet
 Not strictly an extension as it is now part of the core code.  If you write in HTML and css, Emmet is an enormous time saver.  It parses abbreviated expressions, turning them into code.  More information available at https://docs.emmet.io/
 
+### Path Autocomplete
+This extension provides path completion for relative and absolute paths. For e.g. this is convenient when you want to add an image to quarto / markdown and you need to link to the path of the image. 
+
+### mongoDB
+This is a great extension for working with mongoDB databases.  Includes a playground to build and test queries.
+
 ### Gitlens and Git Graph
 Two extensions to help when working with version control.  Git graph provides a visual representation of commits, making it simple to work with branches.  Git Lens provides many additional views of code under version control.
+
+### git-autoconfig
+This extension helps manage multiple git profiles. For e.g. if you work on repos using your work email address in some cases and a private email address in others you can manage this easily using git-autoconfig. 
 
 ### Quarto
 The VS Code quarto extension makes it easy to work with quarto and manage quarto projects.
 
+### markdown extended
+This adds a number of non-standard markdown extensions such as subscript/superscript, callout blocks, tables, footnotes, toc and many more.
+
+### Markdown Preview Mermaid
+This extension will render a preview of your mermaid diagram embedded in your markdown file. 
+
 ### docker
 The docker extension helps you build and manage containers and images from within VS Code.  Like many other languages in VS Code it provides intellisense and syntax help as you are writing Dockerfile and docker-compose.yml files.
-
-### remote ssh
-Connect to and edit files on a remote server.
-
-### Error lens
-Highlights errors and warnings with messages.  VS Code natively highlights errors but this adds more context as you're typing.
-
-### live server
-Launch a dynamic server to render webpages whilst editing.
 
 ### rest client
 This extension is particularly useful when working with APIs.  It allows you to run requests to the API directly from the editor.  It's a great way to test as you are developing APIs without having to leave the editor.  It can also run graphQL parameterized queries.
 
-### mongoDB
-This is a great extension for working with mongoDB databases.  Includes a playground to build and test queries.
+### remote ssh
+Connect to and edit files on a remote server.
+
+
+### live server
+Launch a dynamic server to render webpages whilst editing.
+
+### Error lens
+Highlights errors and warnings with messages.  VS Code natively highlights errors but this adds more context as you're typing.
+
+### indent-rainbow
+This is a simple extensions that helps with code readability by colorizes the indentation in front of your indented code / text with alternating colours.  
+
 
 ### foam and dendron
 These are both note organizers.  If you have lots of notes, foam and dendron are two extensions that help you organize, classify and connect notes.
@@ -85,8 +103,6 @@ These are both note organizers.  If you have lots of notes, foam and dendron are
 ### kanbn
 This is a great kanban extension for VS Code.  The kanban board can be attached to a VS Code workplace, useful for managing at a project-level.
 
-### markdown extended
-This adds a number of non-standard markdown extensions such as subscript/superscript, callout blocks, tables, footnotes, toc and many more.
 
 ### spotify
 Control Spotify from within VS Code.
