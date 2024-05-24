@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2024-04-25">
+<meta name="description" content="Using R with VS Code">
 
-<title>RinPharmaDiversityAlliance - Diversity Alliance Events</title>
+<title>RinPharmaDiversityAlliance - Working with VS Code</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -78,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">RinPharmaDiversityAlliance</span>
     </a>
   </div>
@@ -89,21 +91,21 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./events.html" aria-current="page"> 
+    <a class="nav-link" href="../../events.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Posts</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -122,7 +124,32 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#upcoming" id="toc-upcoming" class="nav-link active" data-scroll-target="#upcoming">Upcoming</a></li>
+  <li><a href="#why-use-vs-code" id="toc-why-use-vs-code" class="nav-link active" data-scroll-target="#why-use-vs-code">Why use VS Code?</a></li>
+  <li><a href="#setting-up" id="toc-setting-up" class="nav-link" data-scroll-target="#setting-up">Setting Up</a>
+  <ul class="collapse">
+  <li><a href="#r-packages" id="toc-r-packages" class="nav-link" data-scroll-target="#r-packages">R Packages</a></li>
+  <li><a href="#vscode-r-extension" id="toc-vscode-r-extension" class="nav-link" data-scroll-target="#vscode-r-extension">vscode-R extension</a></li>
+  <li><a href="#r-debugger-extension" id="toc-r-debugger-extension" class="nav-link" data-scroll-target="#r-debugger-extension">R debugger extension</a></li>
+  <li><a href="#radian-terminal" id="toc-radian-terminal" class="nav-link" data-scroll-target="#radian-terminal">Radian Terminal</a></li>
+  <li><a href="#using-renv" id="toc-using-renv" class="nav-link" data-scroll-target="#using-renv">Using renv</a></li>
+  </ul></li>
+  <li><a href="#vs-code-extensions" id="toc-vs-code-extensions" class="nav-link" data-scroll-target="#vs-code-extensions">VS Code Extensions</a>
+  <ul class="collapse">
+  <li><a href="#languages" id="toc-languages" class="nav-link" data-scroll-target="#languages">languages</a></li>
+  <li><a href="#emmet" id="toc-emmet" class="nav-link" data-scroll-target="#emmet">Emmet</a></li>
+  <li><a href="#gitlens-and-git-graph" id="toc-gitlens-and-git-graph" class="nav-link" data-scroll-target="#gitlens-and-git-graph">Gitlens and Git Graph</a></li>
+  <li><a href="#quarto" id="toc-quarto" class="nav-link" data-scroll-target="#quarto">Quarto</a></li>
+  <li><a href="#docker" id="toc-docker" class="nav-link" data-scroll-target="#docker">docker</a></li>
+  <li><a href="#remote-ssh" id="toc-remote-ssh" class="nav-link" data-scroll-target="#remote-ssh">remote ssh</a></li>
+  <li><a href="#error-lens" id="toc-error-lens" class="nav-link" data-scroll-target="#error-lens">Error lens</a></li>
+  <li><a href="#live-server" id="toc-live-server" class="nav-link" data-scroll-target="#live-server">live server</a></li>
+  <li><a href="#rest-client" id="toc-rest-client" class="nav-link" data-scroll-target="#rest-client">rest client</a></li>
+  <li><a href="#mongodb" id="toc-mongodb" class="nav-link" data-scroll-target="#mongodb">mongoDB</a></li>
+  <li><a href="#foam-and-dendron" id="toc-foam-and-dendron" class="nav-link" data-scroll-target="#foam-and-dendron">foam and dendron</a></li>
+  <li><a href="#kanbn" id="toc-kanbn" class="nav-link" data-scroll-target="#kanbn">kanbn</a></li>
+  <li><a href="#markdown-extended" id="toc-markdown-extended" class="nav-link" data-scroll-target="#markdown-extended">markdown extended</a></li>
+  <li><a href="#spotify" id="toc-spotify" class="nav-link" data-scroll-target="#spotify">spotify</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -131,14 +158,25 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Diversity Alliance Events</h1>
+<h1 class="title">Working with VS Code</h1>
 </div>
 
+<div>
+  <div class="description">
+    Using R with VS Code
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 25, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -148,36 +186,110 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="upcoming" class="level1">
-<h1>Upcoming</h1>
-<table class="table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 30%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Date</th>
-<th style="text-align: left;">Topic</th>
-<th style="text-align: left;">Goal</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">22rd Mar 2024</td>
-<td style="text-align: left;">Kick-off</td>
-<td style="text-align: left;">Let’s connect informally and discuss our aspriations for our diversity alliance and what you would like to see in upcoming events.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">19th April 2024</td>
-<td style="text-align: left;">IDE Tips and Ticks</td>
-<td style="text-align: left;">Bring your favourite IDE tricks and have some fun learning</td>
-</tr>
-</tbody>
-</table>
+<section id="why-use-vs-code" class="level2">
+<h2 class="anchored" data-anchor-id="why-use-vs-code">Why use VS Code?</h2>
+<p>Posit workbench is a fine IDE and, if programming solely using R, it can do pretty much everthing you need. When working with multiple languages, or if you need soemthing a little more than just an IDE, VS Code is an excellent alternative.</p>
+<p>Personally, I find the following features compelling reasons to use VS Code:</p>
+<ul>
+<li>VS Code has a better approach to multiple windowns.</li>
+<li>It works with multiple languages (syntax, autocomplete, error checking, etc).</li>
+<li>Amazing support for git, GitHub, etc.</li>
+<li>Editing code on remote servers.</li>
+<li>VS Code has a huge range of extensions.</li>
+<li>Easy to find command (CTRL-SHIFT-P).</li>
+</ul>
+</section>
+<section id="setting-up" class="level2">
+<h2 class="anchored" data-anchor-id="setting-up">Setting Up</h2>
+<p>A little work is required to set up R in VS Code.</p>
+<section id="r-packages" class="level3">
+<h3 class="anchored" data-anchor-id="r-packages">R Packages</h3>
+<p>The following R packages should be installed along with the VS Code extensions:</p>
+<ul>
+<li>{languageserver} This package supports the R language in VS Code.</li>
+<li>{httpg} The httpg package provides a graphics device for plotting.</li>
+<li>{vscDebugger} Supports debugging R code under VS Code. It is not on CRAN but can be installed via R-Universe: <code>install.packages("vscDebugger", repos = "https://manuelhentschel.r-universe.dev")</code></li>
+</ul>
+</section>
+<section id="vscode-r-extension" class="level3">
+<h3 class="anchored" data-anchor-id="vscode-r-extension">vscode-R extension</h3>
+<p>Install the VS Code R extension (https://code.visualstudio.com/docs/languages/r). The extension includes a number of features such as code completion and linting. See https://github.com/REditorSupport/vscode-R/wiki/R-Language-Service for more details.</p>
+</section>
+<section id="r-debugger-extension" class="level3">
+<h3 class="anchored" data-anchor-id="r-debugger-extension">R debugger extension</h3>
+<p>This adds debugging capability and dependes on the {vscDebugger} package.</p>
+</section>
+<section id="radian-terminal" class="level3">
+<h3 class="anchored" data-anchor-id="radian-terminal">Radian Terminal</h3>
+<p>The Radian terminal is modern terminal for R. It provides a better experience, closer to Posit’s console, adding multiline editing, syntax highlighting and autocompletion in the terminal. Radian is a python package and needs to be installed with <code>pip3 install -U radian</code>.</p>
+<p>In order to use Radian, the default R terminal needs to be updated in the VS Code settings. For a windows machine, edit settings via the menu (File&gt;Preferences&gt;Settings <em>or</em> CTRL+, <em>or</em> CTRL+P+“Preferences: Open Settings(UI)), search for <strong>Rterm:windows</strong> and set <code>r.rterm.windows = "C:\Python311\Scripts\radian.exe"</code></p>
+</section>
+<section id="using-renv" class="level3">
+<h3 class="anchored" data-anchor-id="using-renv">Using renv</h3>
+<p>Packages can be managed using renv when working with R in VS Code, however the languageserver R package and its dependencies will also be required. One way to manage this is to maintain a standalone, minimal library with packages that VS Code requires. This is detailed in https://github.com/REditorSupport/vscode-R/wiki/Working-with-renv-enabled-projects</p>
+</section>
+</section>
+<section id="vs-code-extensions" class="level2">
+<h2 class="anchored" data-anchor-id="vs-code-extensions">VS Code Extensions</h2>
+<p>Listed below are some of my favorite VS Code extensions.</p>
+<section id="languages" class="level3">
+<h3 class="anchored" data-anchor-id="languages">languages</h3>
+<p>VS Code is an editor that works well with many programming languages. It has native support for HTML, css, Javascript along with extensions for most modern programming languages. VS Code is particularly useful when learning a new programming language as its syntax and linting features can highlight issues as you type.</p>
+</section>
+<section id="emmet" class="level3">
+<h3 class="anchored" data-anchor-id="emmet">Emmet</h3>
+<p>Not strictly an extension as it is now part of the core code. If you write in HTML and css, Emmet is an enormous time saver. It parses abbreviated expressions, turning them into code. More information available at https://docs.emmet.io/</p>
+</section>
+<section id="gitlens-and-git-graph" class="level3">
+<h3 class="anchored" data-anchor-id="gitlens-and-git-graph">Gitlens and Git Graph</h3>
+<p>Two extensions to help when working with version control. Git graph provides a visual representation of commits, making it simple to work with branches. Git Lens provides many additional views of code under version control.</p>
+</section>
+<section id="quarto" class="level3">
+<h3 class="anchored" data-anchor-id="quarto">Quarto</h3>
+<p>The VS Code quarto extension makes it easy to work with quarto and manage quarto projects.</p>
+</section>
+<section id="docker" class="level3">
+<h3 class="anchored" data-anchor-id="docker">docker</h3>
+<p>The docker extension helps you build and manage containers and images from within VS Code. Like many other languages in VS Code it provides intellisense and syntax help as you are writing Dockerfile and docker-compose.yml files.</p>
+</section>
+<section id="remote-ssh" class="level3">
+<h3 class="anchored" data-anchor-id="remote-ssh">remote ssh</h3>
+<p>Connect to and edit files on a remote server.</p>
+</section>
+<section id="error-lens" class="level3">
+<h3 class="anchored" data-anchor-id="error-lens">Error lens</h3>
+<p>Highlights errors and warnings with messages. VS Code natively highlights errors but this adds more context as you’re typing.</p>
+</section>
+<section id="live-server" class="level3">
+<h3 class="anchored" data-anchor-id="live-server">live server</h3>
+<p>Launch a dynamic server to render webpages whilst editing.</p>
+</section>
+<section id="rest-client" class="level3">
+<h3 class="anchored" data-anchor-id="rest-client">rest client</h3>
+<p>This extension is particularly useful when working with APIs. It allows you to run requests to the API directly from the editor. It’s a great way to test as you are developing APIs without having to leave the editor. It can also run graphQL parameterized queries.</p>
+</section>
+<section id="mongodb" class="level3">
+<h3 class="anchored" data-anchor-id="mongodb">mongoDB</h3>
+<p>This is a great extension for working with mongoDB databases. Includes a playground to build and test queries.</p>
+</section>
+<section id="foam-and-dendron" class="level3">
+<h3 class="anchored" data-anchor-id="foam-and-dendron">foam and dendron</h3>
+<p>These are both note organizers. If you have lots of notes, foam and dendron are two extensions that help you organize, classify and connect notes.</p>
+</section>
+<section id="kanbn" class="level3">
+<h3 class="anchored" data-anchor-id="kanbn">kanbn</h3>
+<p>This is a great kanban extension for VS Code. The kanban board can be attached to a VS Code workplace, useful for managing at a project-level.</p>
+</section>
+<section id="markdown-extended" class="level3">
+<h3 class="anchored" data-anchor-id="markdown-extended">markdown extended</h3>
+<p>This adds a number of non-standard markdown extensions such as subscript/superscript, callout blocks, tables, footnotes, toc and many more.</p>
+</section>
+<section id="spotify" class="level3">
+<h3 class="anchored" data-anchor-id="spotify">spotify</h3>
+<p>Control Spotify from within VS Code.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

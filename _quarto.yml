@@ -9,6 +9,8 @@ website:
         text: Home
       - href: events.qmd
         text: Events
+      - href: posts.qmd
+        text: Posts
     right:
       - href: about.qmd
         text: About
