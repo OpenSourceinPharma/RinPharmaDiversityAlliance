@@ -1,17 +1,52 @@
 [
   {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Working with VS Code\n\n\n\n\n\nHow to set up VS Code for programming in R plus some useful VS Code extensions.\n\n\n\n\n\nApr 25, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2024-04-25-vscode/index.html",
+    "href": "posts/2024-04-25-vscode/index.html",
+    "title": "Working with VS Code",
+    "section": "",
+    "text": "Posit workbench is the most popular IDE for development using R. It has a lot of great functionality out of the box. However, when working with multiple languages, or if you need something a little more than just an IDE, VS Code is an excellent alternative.\nHere are some of the following features compelling reasons to use VS Code:\n\nVS Code has a better approach to multiple windows.\nIt works with multiple languages (syntax, autocomplete, error checking, etc).\nExcellent support for git, GitHub, etc.\nEditing code on remote servers.\nVS Code has a huge range of extensions.\nEasy to navigate command palette (CTRL-SHIFT-P)\nIt’s highly customisable."
+  },
+  {
+    "objectID": "posts/2024-04-25-vscode/index.html#why-use-vs-code",
+    "href": "posts/2024-04-25-vscode/index.html#why-use-vs-code",
+    "title": "Working with VS Code",
+    "section": "",
+    "text": "Posit workbench is the most popular IDE for development using R. It has a lot of great functionality out of the box. However, when working with multiple languages, or if you need something a little more than just an IDE, VS Code is an excellent alternative.\nHere are some of the following features compelling reasons to use VS Code:\n\nVS Code has a better approach to multiple windows.\nIt works with multiple languages (syntax, autocomplete, error checking, etc).\nExcellent support for git, GitHub, etc.\nEditing code on remote servers.\nVS Code has a huge range of extensions.\nEasy to navigate command palette (CTRL-SHIFT-P)\nIt’s highly customisable."
+  },
+  {
+    "objectID": "posts/2024-04-25-vscode/index.html#setting-up",
+    "href": "posts/2024-04-25-vscode/index.html#setting-up",
+    "title": "Working with VS Code",
+    "section": "Setting Up",
+    "text": "Setting Up\nA little work is required to set up R in VS Code.\n\nR Packages\nThe following R packages should be installed along with the VS Code extensions:\n\n{languageserver} This package supports the R language in VS Code.\n{httpg} The httpg package provides a graphics device for plotting.\n{vscDebugger} Supports debugging R code under VS Code. It is not on CRAN but can be installed via R-Universe: install.packages(\"vscDebugger\", repos = \"https://manuelhentschel.r-universe.dev\")\n\n\n\nvscode-R extension\nInstall the VS Code R extension (https://code.visualstudio.com/docs/languages/r). The extension includes a number of features such as code completion and linting. See https://github.com/REditorSupport/vscode-R/wiki/R-Language-Service for more details.\n\n\nR debugger extension\nThis adds debugging capability and dependes on the {vscDebugger} package.\n\n\nRadian Terminal\nThe Radian terminal is modern terminal for R. It provides a better experience, closer to Posit’s console, adding multiline editing, syntax highlighting and autocompletion in the terminal. Radian is a python package and needs to be installed with pip3 install -U radian.\nIn order to use Radian, the default R terminal needs to be updated in the VS Code settings. For a windows machine, edit settings via the menu (File&gt;Preferences&gt;Settings or CTRL+, or CTRL+P+“Preferences: Open Settings(UI)), search for Rterm:windows and set r.rterm.windows = \"C:\\Python311\\Scripts\\radian.exe\"\n\n\nUsing renv\nPackages can be managed using renv when working with R in VS Code, however the languageserver R package and its dependencies will also be required. One way to manage this is to maintain a standalone, minimal library with packages that VS Code requires. This is detailed in https://github.com/REditorSupport/vscode-R/wiki/Working-with-renv-enabled-projects"
+  },
+  {
+    "objectID": "posts/2024-04-25-vscode/index.html#vs-code-extensions",
+    "href": "posts/2024-04-25-vscode/index.html#vs-code-extensions",
+    "title": "Working with VS Code",
+    "section": "VS Code Extensions",
+    "text": "VS Code Extensions\nListed below are some of our favorite VS Code extensions.\n\nlanguages\nVS Code is an editor that works well with many programming languages. It has native support for HTML, css, Javascript along with extensions for most modern programming languages. VS Code is particularly useful when learning a new programming language as its syntax and linting features can highlight issues as you type.\n\n\nEmmet\nNot strictly an extension as it is now part of the core code. If you write in HTML and css, Emmet is an enormous time saver. It parses abbreviated expressions, turning them into code. More information available at https://docs.emmet.io/\n\n\nPath Autocomplete\nThis extension provides path completion for relative and absolute paths. For e.g. this is convenient when you want to add an image to quarto / markdown and you need to link to the path of the image.\n\n\nmongoDB\nThis is a great extension for working with mongoDB databases. Includes a playground to build and test queries.\n\n\nGitlens and Git Graph\nTwo extensions to help when working with version control. Git graph provides a visual representation of commits, making it simple to work with branches. Git Lens provides many additional views of code under version control.\n\n\ngit-autoconfig\nThis extension helps manage multiple git profiles. For e.g. if you work on repos using your work email address in some cases and a private email address in others you can manage this easily using git-autoconfig.\n\n\nQuarto\nThe VS Code quarto extension makes it easy to work with quarto and manage quarto projects.\n\n\nmarkdown extended\nThis adds a number of non-standard markdown extensions such as subscript/superscript, callout blocks, tables, footnotes, toc and many more.\n\n\nMarkdown Preview Mermaid\nThis extension will render a preview of your mermaid diagram embedded in your markdown file.\n\n\ndocker\nThe docker extension helps you build and manage containers and images from within VS Code. Like many other languages in VS Code it provides intellisense and syntax help as you are writing Dockerfile and docker-compose.yml files.\n\n\nrest client\nThis extension is particularly useful when working with APIs. It allows you to run requests to the API directly from the editor. It’s a great way to test as you are developing APIs without having to leave the editor. It can also run graphQL parameterized queries.\n\n\nremote ssh\nConnect to and edit files on a remote server.\n\n\nlive server\nLaunch a dynamic server to render webpages whilst editing.\n\n\nError lens\nHighlights errors and warnings with messages. VS Code natively highlights errors but this adds more context as you’re typing.\n\n\nindent-rainbow\nThis is a simple extensions that helps with code readability by colorizes the indentation in front of your indented code / text with alternating colours.\n\n\nfoam and dendron\nThese are both note organizers. If you have lots of notes, foam and dendron are two extensions that help you organize, classify and connect notes.\n\n\nkanbn\nThis is a great kanban extension for VS Code. The kanban board can be attached to a VS Code workplace, useful for managing at a project-level.\n\n\nspotify\nControl Spotify from within VS Code."
+  },
+  {
+    "objectID": "agendas/00_kick_off_22Mar24.html",
+    "href": "agendas/00_kick_off_22Mar24.html",
+    "title": "Diversity Alliance – Kick Off Agenda",
+    "section": "",
+    "text": "Intros from our chairs.\nChristina, Orla, Harvey.\n\n\nGoal 1: connect conference, working group organisers to a less well-represented group of R developers in pharma.\n[Orla to intro; all to discuss]\n\nHow:\n\nslack as it inkeeping with our “parent” R/Pharma.\n\nchairs would post requests for participations from organisers.\n\nWhy:\n\ncreate a way for organisers to find more diverse participants.\n\n\n\n\nGoal 2: upskill in an inclusive environment.\n[Christina to intro; all to discuss]\nHow: create targeted content for upskilling each other. What:\n\nTech-focused (examples for inspiration):\n\nQuarto\nGit\nCreating website (quarto + github actions)\nIDEs (RStudio, VS Code, etc.)\n\nNon-tech (examples for inspiration):\n\nCareer talks.\nPresentation tips.\nStakeholder Management\nAgile frameworks."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Us",
     "section": "",
     "text": "Who are the Diversity Alliance chairs?\nChristina Fillmore: Data Scientist at GSK.\nOrla Doyle: Data Scientist at Novartis.\nHarvey Liberman: Data Scientist At Novartis.\n\n\nWhat’s our origin story?\nTL;DR - Rage against the patriarchal machine.\nIn the not so distant past (2023), Orla and Christina were at a conference. We both decided to go to the panel on open-source adoption in pharma. We were astonished when the panel came on stage and of the 11 people panelist there was 1 person wasn’t white and only 1 person wasn’t a man!\nWe may never know whether it was fate or just our general aura of feminist rage that brought us together, but we struck up a conversation that lasted several hours. We wondered how we could ensure that the complex and impactful topic of the adoption of open-source is shaped by diverse voices with better diversity of ideas and approaches. That’s when we realised, we were probably just as qualified as anyone else to do this.\nAdditionally we reflected on conferences and communities that are inclusive which led us to R/Pharma and Harvey Lieberman. We chatted to Harvey to share our ideas and we decided to create the Diversity Alliance!\n\n\n\nWhat is the Diversity Alliance?\nThe Diversity Alliance aspire to be an inclusive R community for developers who work in the pharma space. Trying to address the structural inequality that affects our community. We want all ways of being and doing to feel welcome.\n\n\nWhat are Diversity Alliance’s objectives?\nOur goals are to provide a welcoming, equitable and supportive space for people to upskill, share knowledge and build a community of diverse voices.\nUpskilling: Let’s work together to identify topics that we can workshop and grow our skills. For e.g. use of git, best practice in R package development, etc.\nCommunity: Build an inclusive community that offers opportunities for collaboration. Brainstorm how we can leverage this community as a resource for nominations for representation at conferences, working groups, etc."
-  },
-  {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "Diversity Alliance Events",
-    "section": "",
-    "text": "Upcoming\n\n\n\n\n\n\n\n\nDate\nTopic\nGoal\n\n\n\n\n22rd Mar 2024\nKick-off\nLet’s connect informally and discuss our aspriations for our diversity alliance and what you would like to see in upcoming events.\n\n\n19th April 2024\nIDE Tips and Ticks\nBring your favourite IDE tricks and have some fun learning"
   },
   {
     "objectID": "index.html",
@@ -21,10 +56,10 @@
     "text": "We aspire to be an inclusive R community for developers who work in the pharma space. Our goal is to provide a welcoming, equitable and supportive space for people to upskill, share knowledge and build a community of diverse voices. We want all ways of being and doing to feel welcome.\n\nHow can I get involved?\nThere are several ways to get involved with the Diversity Alliance:\n\nParticipate in our monthly meetups:\n\n\nLearn new skills as we workshop open-source topics\nHelp co-define the agenda and topics for future meetups\nMake new connections\n\n\nCo-host a workshop:\n\n\nIs there a topic you are enthusiastic about that you’d like to share with the community?\nDid you have a steep learning curve in a topic and you’d like to share your learnings?\n\n\nAre you organising sessions and you want to connect to a diverse group of people:\n\n\nThe Diversity Alliance chairs would like to brainstorm how we can be more proactive about ensuring under-recognised people are better included."
   },
   {
-    "objectID": "agendas/00_kick_off_22Mar24.html",
-    "href": "agendas/00_kick_off_22Mar24.html",
-    "title": "Diversity Alliance – Kick Off Agenda",
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Diversity Alliance Events",
     "section": "",
-    "text": "Intros from our chairs.\nChristina, Orla, Harvey.\n\n\nGoal 1: connect conference, working group organisers to a less well-represented group of R developers in pharma.\n[Orla to intro; all to discuss]\n\nHow:\n\nslack as it inkeeping with our “parent” R/Pharma.\n\nchairs would post requests for participations from organisers.\n\nWhy:\n\ncreate a way for organisers to find more diverse participants.\n\n\n\n\nGoal 2: upskill in an inclusive environment.\n[Christina to intro; all to discuss]\nHow: create targeted content for upskilling each other. What:\n\nTech-focused (examples for inspiration):\n\nQuarto\nGit\nCreating website (quarto + github actions)\nIDEs (RStudio, VS Code, etc.)\n\nNon-tech (examples for inspiration):\n\nCareer talks.\nPresentation tips.\nStakeholder Management\nAgile frameworks."
+    "text": "Upcoming\n\n\n\n\n\n\n\n\nDate\nTopic\nGoal\n\n\n\n\n22rd Mar 2024\nKick-off\nLet’s connect informally and discuss our aspriations for our diversity alliance and what you would like to see in upcoming events.\n\n\n19th April 2024\nIDE Tips and Ticks\nBring your favourite IDE tricks and have some fun learning\n\n\n24th May 2024\nOpen-source community\nHow to start contributing to open-source packages."
   }
 ]
