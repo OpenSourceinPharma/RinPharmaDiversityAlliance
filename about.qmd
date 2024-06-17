@@ -6,7 +6,8 @@ title: "About Us"
 # Who are the Diversity Alliance chairs?
 Christina Fillmore: Data Scientist at GSK.    
 Orla Doyle: Data Scientist at Novartis.      
-Harvey Liberman: Data Scientist At Novartis.   
+Harvey Liberman: Data Scientist At Novartis.  
+You can contact our chairs using our [diversity alliance email address](mailto:diversityalliance@opensourceinpharma.com). 
 :::
 
 ::: blue-box

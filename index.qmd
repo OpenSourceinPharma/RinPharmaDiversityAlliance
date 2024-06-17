@@ -9,7 +9,7 @@ We aspire to be an inclusive R community for developers who work in the pharma s
 
 There are several ways to get involved with the Diversity Alliance: 
 
-1. Participate in our monthly meetups:
+1. Participate in our monthly meetups by signing up using our [diversity alliance email address](mailto:diversityalliance@opensourceinpharma.com):
 - Learn new skills as we workshop open-source topics
 - Help co-define the agenda and topics for future meetups
 - Make new connections
