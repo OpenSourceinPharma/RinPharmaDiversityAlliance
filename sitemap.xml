@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://OpenSourceinPharma.github.io/RinPharmaDiversityAlliance/events.html</loc>
-    <lastmod>2024-07-02T14:08:26.515Z</lastmod>
-  </url>
-  <url>
-    <loc>https://OpenSourceinPharma.github.io/RinPharmaDiversityAlliance/about.html</loc>
-    <lastmod>2024-07-02T14:08:26.515Z</lastmod>
-  </url>
-  <url>
     <loc>https://OpenSourceinPharma.github.io/RinPharmaDiversityAlliance/posts/2024-04-25-vscode/index.html</loc>
-    <lastmod>2024-07-02T14:08:26.515Z</lastmod>
+    <lastmod>2024-08-16T14:30:13.280Z</lastmod>
   </url>
   <url>
     <loc>https://OpenSourceinPharma.github.io/RinPharmaDiversityAlliance/agendas/00_kick_off_22Mar24.html</loc>
-    <lastmod>2024-07-02T14:08:26.515Z</lastmod>
+    <lastmod>2024-08-16T14:30:13.280Z</lastmod>
   </url>
   <url>
-    <loc>https://OpenSourceinPharma.github.io/RinPharmaDiversityAlliance/index.html</loc>
-    <lastmod>2024-07-02T14:08:26.515Z</lastmod>
+    <loc>https://OpenSourceinPharma.github.io/RinPharmaDiversityAlliance/events.html</loc>
+    <lastmod>2024-08-16T14:30:13.280Z</lastmod>
+  </url>
+  <url>
+    <loc>https://OpenSourceinPharma.github.io/RinPharmaDiversityAlliance/about.html</loc>
+    <lastmod>2024-08-16T14:30:13.280Z</lastmod>
   </url>
   <url>
     <loc>https://OpenSourceinPharma.github.io/RinPharmaDiversityAlliance/posts.html</loc>
-    <lastmod>2024-07-02T14:08:26.515Z</lastmod>
+    <lastmod>2024-08-16T14:30:13.280Z</lastmod>
+  </url>
+  <url>
+    <loc>https://OpenSourceinPharma.github.io/RinPharmaDiversityAlliance/index.html</loc>
+    <lastmod>2024-08-16T14:30:13.280Z</lastmod>
   </url>
 </urlset>
