@@ -12,7 +12,7 @@ title: "Diversity Alliance Events"
 | 24th May 2024                            | Open-source community                       | How to start contributing to open-source packages.                                                                                 |
 | 26th July 2024                           | Diversity Alliance Conference Opportunities | Let's discuss some opportunities for this community to participate in upcoming conferences.                                        |
 | [23rd Aug 2024](http://evt.to/eeuhogdsw) | Logistics of the R/Pharma Hackathon         | Now we have agree to do this we need to sort some logistics                                                                        |
-| 27th Sept 2024                           | TBD                                         | TBD                                                                                                                                |
+| [27th Sept 2024](http://evt.to/eeuhogshw)  | Hackathon Mentor Meeting                                         | Work through the final bits of logistics for the hackathon                                                                                                                                |
 | 25th Oct 2024                            | TBD                                         | TBD                                                                                                                                |
 | 22nd Nov 2024                            | TBD                                         | TBD                                                                                                                                |
 
