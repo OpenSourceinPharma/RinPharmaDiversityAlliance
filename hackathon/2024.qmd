@@ -1,0 +1,15 @@
+---
+title: "2024 Hackathon"
+---
+
+# Participant Information
+
+Welcome to the 2024 hackathon! Thank you for signing up. This event is aimed at individuals who have not contributed to the open source much but are looking for a way to start giving back. This event will be run on October 21st at 16:00 GMT (11:00 EST) and will last 4 hours.
+
+While not required, it will be helpful to have some background R knowledge.
+
+Prior to the hackathon please make to do the following:
+
+-   Create Github account
+
+-   Connect github account to either your local computer or a posit cloud instance

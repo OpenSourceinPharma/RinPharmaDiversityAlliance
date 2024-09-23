@@ -11,10 +11,12 @@ website:
         text: Events
       - href: posts.qmd
         text: Posts
+      - href: hackathon/2024.qmd
+        text: 2024 Hackathon
     right:
       - href: about.qmd
         text: About
-     
+
 
 format:
   html:
