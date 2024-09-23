@@ -13,3 +13,9 @@ Prior to the hackathon please make to do the following:
 -   Create Github account
 
 -   Connect github account to either your local computer or a posit cloud instance
+
+
+# Mentors Information 
+
+Make sure to join the mentors slack channel to get the most up to date information. 
+Prior to the day, make sure you have looked at your issues and are confident that you can help will all the issues you have been assigned. If you have any questions please reach out on the slack channel. 
