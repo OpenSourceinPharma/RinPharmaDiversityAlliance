@@ -1,6 +1,15 @@
 ---
-title: "2024 Hackathon"
+title: "R/Pharma Hackathon 2024"
 ---
+
+Do you identify as underrepresented and would you like to get involved in open source projects? Then please keep reading… this hackathon may be for you! 
+
+During our early Diversity Alliance meetings we discussed how we might be able to minimise barriers to entry in the open-source community (from opening issues to making your first pull request). We found that a common denominator in our Alliance members: someone helped me get started. 
+
+We would like to use this hackathon to help you get started. Join mentors from the R/Pharma community to learn about how to contribute to open source projects. You'll work with mentors in small groups, tackling open issues in real projects.
+
+At the end of this hackathon we hope you will have expanded your network in our community and having gained increased familiarity with making contributions in the open-source space. 
+
 
 # Participant Information
 
