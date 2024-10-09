@@ -1,0 +1,87 @@
+---
+title: "R/Pharma Diversity Alliance: Open-source Hackathon"
+author: "Diversity Alliance Chairs"
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    #css: ../../styles.css
+    footer: <https://opensourceinpharma.github.io/RinPharmaDiversityAlliance/>
+resources:
+  - slides.pdf
+---
+
+
+## Today's Agenda {.smaller}
+
+### Main group activities [1 hour]
+- Diversity Alliance: goals and vision for our community
+- Mentor intros
+- Open-source intro: working in git
+- Open-source intro: working with humans (expected behaviours)
+
+### Mentor Group Activities [3 hours]
+- We have paired our mentors to form groups
+- Each group is aligned to a topic with an associated set of open-source issues
+- Work individually or as a group on these issues
+- Mentors will be on hand to guide you in terms of using the tools and the specifics of the issue
+
+
+## Diversity Alliance {.smaller}
+
+We aspire to be an inclusive R community for developers who work in the pharma space. The Alliance is chaired by Christina Fillmore, Harvey Lieberman and Orla Doyle.  
+
+If you want to know more check out our [origin story](../../about.qmd). 
+
+:::{.callout-note appearance="simple"}
+# Goals and Aspirations
+Our goal is to provide a welcoming, equitable and supportive space for people to upskill, share knowledge and build a community of diverse voices. We want all ways of being and doing to feel welcome.
+:::
+
+We launched in March 2024 and we've ran [monthly meetings](../../events.qmd) to begin to grow our community. 
+
+
+## How to join this community
+
+::: {.columns}
+::: {.column}
+
+:::{.callout-note appearance="simple"}
+# Please call us, we (mostly) can't call you! 
+- Sign up using our [diversity alliance email address](mailto:diversityalliance@opensourceinpharma.com)
+- Subscribe to our [addevent calendar](https://www.addevent.com/calendar/AD808454)
+- Once you sign up we'll add you to our slack channel
+:::
+
+:::
+
+::: {.column}
+![](images/gdpr-cat.jpg)
+:::
+:::
+
+
+## Let's shape this community together
+- Join our monthly meetups:  
+  - Help co-define the agenda and topics for future meetups
+  - Make new connections
+  - Learn new skills
+
+- Co-host a workshop: 
+  - Share a topic with the community. 
+
+- Are you organising sessions and you want to connect to a diverse group of people:
+  - The Diversity Alliance chairs can advertise these opportunities to help find nominations / volunteers from a more diverse pool.
+
+
+
+
+## Hackathon: Let's introduce our mentors
+
+![](./images/intros.jpg)
+
+
+
+

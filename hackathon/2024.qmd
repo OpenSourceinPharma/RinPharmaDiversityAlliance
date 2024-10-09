@@ -28,3 +28,23 @@ Prior to the hackathon please make to do the following:
 
 Make sure to join the mentors slack channel to get the most up to date information. 
 Prior to the day, make sure you have looked at your issues and are confident that you can help will all the issues you have been assigned. If you have any questions please reach out on the slack channel. 
+
+# On the day
+
+As we kick off the hackathon we'd like to cover a few topics:   
+1. Diversity Alliance: background, goals and joining.    
+2. Housekeeping for the hackathon  
+3. Mentor intros  
+4. Intro to open-source: tooling  
+5. Intro to open-source: expected behaviours  
+
+<div >
+
+```{=html}
+<iframe class="slide-deck" src="slides/" style="width:80%; height:500px"></iframe>
+```
+
+</div>
+
+
+
