@@ -5,7 +5,7 @@ format:
   revealjs: 
     slide-number: true
     chalkboard: 
-      buttons: false
+      buttons: true
     preview-links: auto
     #css: ../../styles.css
     footer: <https://opensourceinpharma.github.io/RinPharmaDiversityAlliance/>
@@ -36,11 +36,18 @@ We aspire to be an inclusive R community for developers who work in the pharma s
 If you want to know more check out our [origin story](../../about.qmd). 
 
 :::{.callout-note appearance="simple"}
-# Goals and Aspirations
-Our goal is to provide a welcoming, equitable and supportive space for people to upskill, share knowledge and build a community of diverse voices. We want all ways of being and doing to feel welcome.
+## Goals and Aspirations
+Our goal is to provide a welcoming, equitable and supportive space for people to upskill, share knowledge and build a community of diverse voices. We want all ways of being and doing to feel welcome.  
+We hope to have a positive impact through:  
+1. Opportunities for upskilling  
+2. Opportunities for networking / community building  
+3. Promote speaking / panel opportunities to a diverse network  
+
 :::
 
 We launched in March 2024 and we've ran [monthly meetings](../../events.qmd) to begin to grow our community. 
+
+If you have ideas for future meetings then please reach out to us at the [diversity alliance email address](mailto:diversityalliance@opensourceinpharma.com). 
 
 
 ## How to join this community
@@ -63,7 +70,7 @@ We launched in March 2024 and we've ran [monthly meetings](../../events.qmd) to 
 :::
 
 
-## Let's shape this community together
+## Let's shape this community together {.smaller}
 - Join our monthly meetups:  
   - Help co-define the agenda and topics for future meetups
   - Make new connections
