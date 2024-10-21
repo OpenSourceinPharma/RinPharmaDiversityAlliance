@@ -14,20 +14,23 @@ resources:
 ---
 
 
-## Today's Agenda {.smaller}
+## Hackathon Agenda {.smaller}
 
-### Main group activities [1 hour]
+
+#### Today: Main group activities [1 hour]
 - Diversity Alliance: goals and vision for our community
 - Mentor intros
 - Open-source intro: working in git
 - Open-source intro: working with humans (expected behaviours)
 
-### Mentor Group Activities [3 hours]
+#### Today: Mentor Group Activities [3 hours]
 - We have paired our mentors to form groups
 - Each group is aligned to a topic with an associated set of open-source issues
-- Work individually or as a group on these issues
-- Mentors will be on hand to guide you in terms of using the tools and the specifics of the issue
+- Mentors will be on hand to guide you in terms of tools and the issues
 
+#### Optional re-group [Fri Oct 25th @ 2pm BST / 9am EST]
+Please join us to re-group with your team and to discuss any remaining pull requests.  
+Join using: [addevent calendar](https://www.addevent.com/calendar/AD808454)
 
 ## Diversity Alliance {.smaller}
 
@@ -45,7 +48,7 @@ We hope to have a positive impact through:
 
 :::
 
-We launched in March 2024 and we've ran [monthly meetings](../../events.qmd) to begin to grow our community. 
+We launched in March 2024. We run [monthly meetings](../../events.qmd) to begin to grow our community. 
 
 If you have ideas for future meetings then please reach out to us at the [diversity alliance email address](mailto:diversityalliance@opensourceinpharma.com). 
 
