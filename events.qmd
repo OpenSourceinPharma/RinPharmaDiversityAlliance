@@ -2,22 +2,27 @@
 title: "Diversity Alliance Events"
 ---
 
-
 # Upcoming
 
-| Date                                     | Topic                                       | Goal                                                                                                                               |
-|:----------------|:--------------------|:---------------------------------|
-| 22rd Mar 2024                            | Kick-off                                    | Let's connect informally and discuss our aspriations for our diversity alliance and what you would like to see in upcoming events. |
-| 19th April 2024                          | IDE Tips and Ticks                          | Bring your favourite IDE tricks and have some fun learning                                                                         |
-| 24th May 2024                            | Open-source community                       | How to start contributing to open-source packages.                                                                                 |
-| 26th July 2024                           | Diversity Alliance Conference Opportunities | Let's discuss some opportunities for this community to participate in upcoming conferences.                                        |
-| [23rd Aug 2024](http://evt.to/eeuhogdsw) | Logistics of the R/Pharma Hackathon         | Now we have agree to do this we need to sort some logistics                                                                        |
-| [27th Sept 2024](http://evt.to/eeuhogshw)  | Hackathon Mentor Meeting                                         | Work through the final bits of logistics for the hackathon                                                                                                                                |
-| [25th Oct 2024](http://evt.to/eeuhogshw)        | *Optional* Hackathon Re-Group                | Pull in any final pull requests and re-group with your team                                                                                                                                |
-| [22nd Nov 2024](http://evt.to/eeuhogshw)                            | End of Year Review                                         | Reflect on the year and start to plan for next year              |
+| Date | Topic | Goal |
+|:---|:---|:---|
+| 17 Jan 2025 | The Role of a Package Maintainer | Open discussion with package maintainers so those who are interested can get a peak in to the lives of large and small scale package maintainers |
+| 21 Feb 2025 | Positron IDE Walk-through | Orla is going to walk us through using the new IDE |
+| 21 March 2025 | Review the change log from the latest R release | Astrid is going to take us through the new latest version of R |
+| 18 April 2025 | Plan for the Next Hackathon | Hackathon planning with a bit of socializing |
+| 16 May 2025 |  |  |
 
-If you want to keep informed of all of our up-coming meetings and get the links to the zoom calls go [here](https://www.addevent.com/calendar/AD808454)
+If you want to keep informed of all of our upcoming meetings and get the links to the zoom calls go [here](https://www.addevent.com/calendar/AD808454)
 
+# 2024 Meetings
 
-
- 
+| Date | Topic | Goal |
+|:---|:---|:---|
+| 22rd Mar 2024 | Kick-off | Let's connect informally and discuss our aspriations for our diversity alliance and what you would like to see in upcoming events. |
+| 19th April 2024 | IDE Tips and Ticks | Bring your favourite IDE tricks and have some fun learning |
+| 24th May 2024 | Open-source community | How to start contributing to open-source packages. |
+| 26th July 2024 | Diversity Alliance Conference Opportunities | Let's discuss some opportunities for this community to participate in upcoming conferences. |
+| [23rd Aug 2024](http://evt.to/eeuhogdsw) | Logistics of the R/Pharma Hackathon | Now we have agree to do this we need to sort some logistics |
+| [27th Sept 2024](http://evt.to/eeuhogshw) | Hackathon Mentor Meeting | Work through the final bits of logistics for the hackathon |
+| [25th Oct 2024](http://evt.to/eeuhogshw) | *Optional* Hackathon Re-Group | Pull in any final pull requests and re-group with your team |
+| [22nd Nov 2024](http://evt.to/eeuhogshw) | End of Year Review | Reflect on the year and start to plan for next year |
