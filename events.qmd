@@ -7,8 +7,8 @@ title: "Diversity Alliance Events"
 | Date | Topic | Goal |
 |:---|:---|:---|
 | 17 Jan 2025 | The Role of a Package Maintainer | Open discussion with package maintainers so those who are interested can get a peak in to the lives of large and small scale package maintainers |
-| 21 Feb 2025 | Positron IDE Walk-through | Orla is going to walk us through using the new IDE |
-| 21 March 2025 | Review the change log from the latest R release | Astrid is going to take us through the new latest version of R |
+| 21 Feb 2025 | Review the change log from the latest R release | Astrid is going to take us through the new latest version of R |
+| 21 March 2025 | Positron IDE Walk-through | Orla is going to walk us through using the new IDE |
 | 18 April 2025 | Plan for the Next Hackathon | Hackathon planning with a bit of socializing |
 | 16 May 2025 |  |  |
 
